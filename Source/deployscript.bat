@@ -8,4 +8,4 @@ IF [%COMMITCOMMENT%] EQU [""] goto :nocomment
 
 nuget pack "Source\Xipton.Razor.nuspec"
 
-nuget push "Source\*.nupkg" 1660902d-ef34-4ce3-8217-bef69d90ba6b -s https://www.myget.org/F/bluechilli-new/api/v2/package
+nuget push "*.nupkg" 1660902d-ef34-4ce3-8217-bef69d90ba6b -s https://www.myget.org/F/bluechilli-new/api/v2/package
