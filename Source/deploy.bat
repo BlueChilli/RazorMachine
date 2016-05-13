@@ -1,1 +1,1 @@
-cmd.exe /c "deployscript.bat \"$@\"" 
+cmd.exe /c "Source\deployscript.bat \"$@\"" 
